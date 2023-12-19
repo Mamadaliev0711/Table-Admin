@@ -13,13 +13,12 @@ table {
   border: 1px solid black;
   border-collapse: collapse;
   margin: 20px;
-  
 }
 
 tr,
 td,
 th {
-  border: 1px solid black;
+  // border: 1px solid rgb(255, 255, 255);
   text-align: left;
   padding: 8px;
 }
@@ -27,6 +26,14 @@ th {
 th {
   background-color: #ffffff;
 }
-.chec-head {
+.body-head {
   width: 36px;
+  background-color: #38435a;
+
+}
+.haeder-1 {
+  background: var(--Indigo-0, #ededfc);
+}
+.col {
+  padding-left: 54px;
 }
