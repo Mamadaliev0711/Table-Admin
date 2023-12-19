@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+table {
+  width: 80%;
+  height: 80%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 20px;
+  
+}
+
+tr,
+td,
+th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #ffffff;
+}
+.chec-head {
+  width: 36px;
+}
